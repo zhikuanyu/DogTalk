@@ -10,6 +10,7 @@ import List from './src/Pages/List/List';
 import Detail from './src/Pages/List/Detail';
 import Shoot from './src/Pages/Shoot/Shoot';
 import Mine from './src/Pages/Mine/Mine';
+import Login from './src/Pages/Login/Login';
 
 // 导入tabbar图标 -- base64
 import Icons from './src/Common/Icons';
@@ -28,7 +29,8 @@ const ShootStack = StackNavigator({
 });
 
 const MineStack = StackNavigator({
-  Mine: { screen: Mine }
+  Mine: { screen: Mine },
+  Login: { screen: Login },
 },{
   headerMode: 'none'
 });
