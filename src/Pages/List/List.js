@@ -123,7 +123,6 @@ class List extends Component {
           isRefreshing: false
         })
       }
-      console.warn(error)
     })
   }
 
